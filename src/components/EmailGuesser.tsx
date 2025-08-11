@@ -80,7 +80,12 @@ export const EmailGuesser = () => {
     return (
         <Box className="section-container">
             <Stack gap={6} align="stretch">
-                <Text fontSize="4xl" fontWeight="bold" textAlign="center">
+                <Text
+                    fontSize="4xl"
+                    fontWeight="bold"
+                    textAlign="center"
+                    className="section-title"
+                >
                     Email Guesser
                 </Text>
 
